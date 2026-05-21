@@ -18,6 +18,7 @@
  - 客户端的Shader渲染明显还有很多问题。
  - Web Click GUI尚未实现。
  - 部分UI错位。
+ - 直接构建为热注入DLL。
  - 你来提出Issue，我来解决。
 
 ## 原始 Jar + Mapping
