@@ -58,7 +58,7 @@ public class MinecraftPatch {
         }
         if (ZenClient.isReady()) {
             ZenClient.serverTickRate = 1.0f;
-            ClientBase.partialTicks = minecraft.player.getYRot();
+            ClientBase.yaw = minecraft.player.getYRot();
             ZenClient.instance.getEventBus().call(new TickEvent());
         }
     }
